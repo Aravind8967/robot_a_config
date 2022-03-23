@@ -7,8 +7,11 @@ Note : - To work with leg oparatin you must install moveit in your workspace hen
 you can download this repository by fallowing bellow steps
 
 cd catkin_ws/src
+
 git clone https://github.com/Aravind8967/robot_a_config.git
+
 cd ..
+
 catkin_make
 
 ------------ To see the robot command is ---------------------- 

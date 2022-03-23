@@ -1,6 +1,6 @@
 # robot_a_config (Quaderpad with wheel)
 
-it is just like a quaderpad which include wheels each legs has 2 degree of freedom to change the postion i used moveit configuration 
+it is just like a quaderpad which include wheels each legs has 2 degree of freedom to change the postion I used moveit configuration 
 
 Note : - To work with leg oparatin you must install moveit in your workspace hen only you can use
 

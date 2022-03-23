@@ -1,0 +1,21 @@
+controller_list:
+  - name: fake_arm_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - LB1_joint
+      - LB2_joint
+      - LBW_joint
+      - LF1_joint
+      - LF2_joint
+      - LFW_joint
+      - RB1_joint
+      - RB2_joint
+      - RBW_joint
+      - RF1_joint
+      - RF2_joint
+      - RFW_joint
+      - cam_x_j
+      - cam_y_j
+initial:  # Define initial robot poses per group
+  - group: arm
+    pose: allzero

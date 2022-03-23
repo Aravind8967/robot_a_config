@@ -1,0 +1,18 @@
+arm_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+      - FL1_joint
+      - FL2_joint
+      - FL3_joint
+      - FR1_joint
+      - FR2_joint
+      - FR3_joint
+      - RL1_joint
+      - RL2_joint
+      - RL3_joint
+      - RR1_joint
+      - RR2_joint
+      - RR3_joint 
+  stop_trajectory_duration: 0.5
+  state_publish_rate:  25
+  action_monitor_rate: 10

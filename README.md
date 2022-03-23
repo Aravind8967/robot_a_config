@@ -15,6 +15,7 @@ roslaunch robot_a_bringup robot_a_bringup.launch
 
 for slam and moveit operation ( in another terminal type)
 
+
 roslaunch robot_a_moveit_config robot_a_moveit_bringup.launch
 
 these are the command to see
